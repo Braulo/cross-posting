@@ -48,7 +48,6 @@ const uploadToYouTube = async () => {
 
 const uploadToTikTok = async () => {
   const ACCESS_TOKEN = await getAccessTokenTiktok();
-  console.log("access token");
 
   // Step 1: Initialize the post to get the upload URL
   const postInfo = {

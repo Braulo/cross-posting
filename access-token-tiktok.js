@@ -9,7 +9,6 @@ const CLIENT_SECRET = process.env.TIKTOK_CLIENT_SECRET;
 const REDIRECT_URI = process.env.TIKTOK_REDIRECT_URI;
 
 export const getAccessTokenTiktok = async () => {
-  console.log("omegalul");
   try {
     const access_token_file_content = JSON.parse(
       readFileSync("./access_token/tiktok-access-token.json")
